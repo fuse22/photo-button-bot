@@ -7,6 +7,5 @@ COPY . .
 
 ENV BOT_TOKEN=""
 ENV PHOTO_FILE_ID=""
-ENV PHOTO_PATH="photo.jpg"
 
 CMD ["python", "bot.py"]
